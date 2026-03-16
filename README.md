@@ -1,6 +1,4 @@
-# CursorPicker
-
-A tiny desktop launcher that lets you manage project folders and open them directly in Cursor with one click.
+# CursorPicker: A desktop launcher for Cursor projects
 
 ## How to build the .exe (Windows)
 
