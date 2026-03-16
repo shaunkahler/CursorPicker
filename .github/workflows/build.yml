@@ -1,0 +1,29 @@
+name: Build CursorPicker.exe
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install PyInstaller
+        run: pip install pyinstaller
+
+      - name: Build exe
+        run: pyinstaller --onefile --windowed --name CursorPicker cursor_picker.py
+
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/CursorPicker.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
