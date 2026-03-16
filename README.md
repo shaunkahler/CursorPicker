@@ -4,10 +4,12 @@ A desktop launcher for Cursor projects
 
 ## Downloads
 
-| Platform | File |
-|----------|------|
-| Windows | [CursorPicker.exe](https://github.com/shaunkahler/CursorPicker/releases/latest) |
-| Linux | [CursorPicker.AppImage](https://github.com/shaunkahler/CursorPicker/releases/latest) |
+**Latest Release: v1.0** (March 16, 2026)
+
+| Platform | File | Size |
+|----------|------|------|
+| Windows | [CursorPicker.exe](https://github.com/shaunkahler/CursorPicker/releases/latest) | 9.5 MB |
+| Linux | [CursorPicker.AppImage](https://github.com/shaunkahler/CursorPicker/releases/latest) | — |
 
 ---
 
