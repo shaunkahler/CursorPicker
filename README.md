@@ -2,7 +2,17 @@
 
 A desktop launcher for Cursor projects
 
-## How to build the .exe (Windows)
+## Download
+
+Download the latest release: [CursorPicker.exe](https://github.com/shaunkahler/CursorPicker/releases/latest)
+
+Just download, run, and start adding projects!
+
+---
+
+## Build from source
+
+Alternatively, you can build the .exe yourself:
 
 **Requirements:** Python 3.10+ installed and on your PATH  
 (download from https://python.org if needed — tick "Add to PATH" during install)
