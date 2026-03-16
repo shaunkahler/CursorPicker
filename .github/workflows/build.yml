@@ -22,9 +22,7 @@ jobs:
         run: pyinstaller --onefile --windowed --name CursorPicker cursor_picker.py
 
       - name: Upload Release Asset
-        uses: softprops/action-gh-release@v1
-        with:
-          files: dist/CursorPicker.exe
+        run: gh release upload ${{ github.ref_name }} dist/CursorPicker.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -52,8 +50,6 @@ jobs:
           python -m appimage dist/CursorPicker -s --icon="" -o
 
       - name: Upload Release Asset
-        uses: softprops/action-gh-release@v1
-        with:
-          files: CursorPicker-*.AppImage
+        run: gh release upload ${{ github.ref_name }} CursorPicker-*.AppImage
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
