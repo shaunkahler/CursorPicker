@@ -1,4 +1,6 @@
-# CursorPicker: A desktop launcher for Cursor projects
+# CursorPicker
+
+A desktop launcher for Cursor projects
 
 ## How to build the .exe (Windows)
 
