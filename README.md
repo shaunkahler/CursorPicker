@@ -2,7 +2,7 @@
 
 A desktop launcher for Cursor projects
 
-![CursorPicker app interface](./cursorpicker.png)
+<img src="./cursorpicker.png" alt="CursorPicker app interface" width="400">
 
 ## Downloads
 
