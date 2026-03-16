@@ -2,6 +2,8 @@
 
 A desktop launcher for Cursor projects
 
+![Alt text](./cursorpicker.png)
+
 ## Downloads
 
 **Latest Release: v1.0** (March 16, 2026)
