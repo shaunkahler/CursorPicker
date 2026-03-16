@@ -11,9 +11,7 @@ A desktop launcher for Cursor projects
 
 ---
 
-## How to Build from Source
-
-Alternatively, you can build the executable yourself:
+## Build
 
 **Requirements:** Python 3.10+ installed and on your PATH  
 (download from https://python.org if needed — tick "Add to PATH" during install)
