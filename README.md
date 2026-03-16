@@ -2,16 +2,12 @@
 
 A desktop launcher for Cursor projects
 
-## Download
+## Downloads
 
-Get the latest release for your platform:
-
-| Platform | Download |
-|----------|----------|
+| Platform | File |
+|----------|------|
 | Windows | [CursorPicker.exe](https://github.com/shaunkahler/CursorPicker/releases/latest) |
 | Linux | [CursorPicker.AppImage](https://github.com/shaunkahler/CursorPicker/releases/latest) |
-
-Download, run, and start adding projects!
 
 ---
 
