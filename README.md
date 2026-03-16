@@ -1,6 +1,6 @@
 # CursorPicker
 
-A desktop launcher for Cursor projects
+A mini desktop launcher for Cursor projects
 
 <img src="./cursorpicker.png" alt="CursorPicker app interface" width="400">
 
